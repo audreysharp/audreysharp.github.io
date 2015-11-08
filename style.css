@@ -1,9 +1,31 @@
-img {
-  width: 150px;
-  border-radius:70%;
+* {
+    font-family: Arial;
 }
 
 body {
   text-align: center;
-  font-family: Arial;
+}
+
+.table { 
+	padding:5px; 
+	width:95%; 
+	overflow:hidden; 
+}
+
+.left { 
+	float:left; 
+	width:30%; 
+}
+
+.right { 
+	float:right; 
+	width:70%;  
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:2px; 
 }
