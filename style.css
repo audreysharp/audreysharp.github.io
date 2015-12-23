@@ -1,5 +1,5 @@
 * {
-	font-family: Arial;
+	font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -7,13 +7,14 @@ body {
 }
 
 body {
-	background: url(images/background.png) no-repeat center center fixed;
+	/*background: url(images/background.png) no-repeat center center fixed; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	margin: 0;
-	padding: 0;
+	padding: 25px;
+	font-weight: 400;
 }
 
 img {
@@ -27,8 +28,11 @@ img:hover {
 }
 
 h1 {
-	color: white;
-	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 20px;
+	border-bottom: solid 3px #eeeeee;
 }
 
 .overlay {
@@ -42,26 +46,9 @@ h1 {
 	z-index: -1;
 }
 
-.table { 
-	padding:5px; 
-	width:95%; 
-	overflow:hidden; 
-}
-
-.left { 
-	float:left; 
-	width:20%; 
-}
-
-.right { 
-	float:right; 
-	width:80%;  
-}
-
 #footer {
-	background-color:black;
-	color:white;
-	clear:both;
+	/*background-color:black;*/
+	color:black;
 	text-align:center;
-	padding:1px; 
+	padding:2px; 
 }
