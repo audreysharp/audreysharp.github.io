@@ -2,12 +2,14 @@
 	font-family: 'Lato', sans-serif;
 }
 
-body {
-	text-align: center;
+p {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 body {
 	/*background: url(images/background.png) no-repeat center center fixed; */
+	text-align: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -15,6 +17,14 @@ body {
 	margin: 0;
 	padding: 25px;
 	font-weight: 400;
+}
+
+::selection {
+  background: #eeeeeee;
+}
+
+::-moz-selection {
+  background: #eeeeeee;
 }
 
 img {
@@ -32,7 +42,8 @@ h1 {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 20px;
-	border-bottom: solid 3px #eeeeee;
+	padding:10px;
+	border-bottom: 3px solid #eeeeee;
 }
 
 .overlay {
